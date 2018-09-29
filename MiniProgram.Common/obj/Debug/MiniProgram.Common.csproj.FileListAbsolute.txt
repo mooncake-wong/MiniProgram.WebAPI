@@ -1,0 +1,8 @@
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\bin\Debug\MiniProgram.Common.dll.config
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\bin\Debug\MiniProgram.Common.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\bin\Debug\MiniProgram.Common.pdb
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\bin\Debug\log4net.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\bin\Debug\MySql.Data.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\bin\Debug\log4net.xml
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\obj\Debug\MiniProgram.Common.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.Common\obj\Debug\MiniProgram.Common.pdb

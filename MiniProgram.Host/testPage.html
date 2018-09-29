@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="jquery-1.10.2.js"></script>
+    <script src="md5.js"></script>
+    <script>
+        var keyStr = '123456';
+        var timestamp = getMyFormatDate(new Date(),'yyyy-MM-dd hh:mm:ss');//获取当前时间
+        console.log("timestamp：" + timestamp);
+        var token = hexMD5(keyStr + timestamp);
+        console.log("token:" + token);
+        var apiServiceBaseUri = "http://localhost:52545/";
+        $(function () {
+            var data = {code:"25"};
+            $.ajax({
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader('Authorization', 'BasicAuth ' + timestamp+"|"+token);
+                },
+                url: apiServiceBaseUri + 'Login/Test',
+                type: "GET",
+                dataType: 'json',
+                success: function (data) {
+                    alert(data.Message);
+                    //alert(Message);
+                }
+            });
+        });
+
+        //时间格式化
+        function getMyFormatDate(date, dateForm) {
+            var seperator1 = "-";
+            var seperator2 = ":";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            var hour = date.getHours();
+            var Minutes = date.getMinutes();
+            var second = date.getSeconds();
+
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            if (hour >= 0 && hour <= 9) {
+                hour = "0" + hour;
+            }
+            if (Minutes >= 0 && Minutes <= 9) {
+                Minutes = "0" + Minutes;
+            }
+            if (second >= 0 && second <= 9) {
+                second = "0" + second;
+            }
+
+            var currentdate = "";
+            switch (dateForm) {
+                case "yyyy-MM-dd":
+                    currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate;
+                    break;
+                case "yyyy-MM-dd hh:mm:ss":
+                    currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+                    + " " + hour + seperator2 + Minutes
+                    + seperator2 + second;
+                    break;
+                case "yyyyMMddhhmmss":
+                    currentdate = date.getFullYear() + month + strDate + hour + Minutes + second;
+                    break;
+            }
+            return currentdate;
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\obj\Debug\MiniProgram.DAL.csprojResolveAssemblyReference.cache
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.DAL.dll.config
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.DAL.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.DAL.pdb
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.Common.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.Models.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MySql.Data.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\log4net.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.Common.pdb
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\MiniProgram.Models.pdb
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\bin\Debug\log4net.xml
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\obj\Debug\MiniProgram.DAL.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.DAL\obj\Debug\MiniProgram.DAL.pdb

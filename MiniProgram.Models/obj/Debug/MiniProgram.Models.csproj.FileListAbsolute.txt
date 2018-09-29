@@ -1,0 +1,4 @@
+E:\Code\MiniProgram.WebAPI\MiniProgram.Models\bin\Debug\MiniProgram.Models.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.Models\bin\Debug\MiniProgram.Models.pdb
+E:\Code\MiniProgram.WebAPI\MiniProgram.Models\obj\Debug\MiniProgram.Models.dll
+E:\Code\MiniProgram.WebAPI\MiniProgram.Models\obj\Debug\MiniProgram.Models.pdb
